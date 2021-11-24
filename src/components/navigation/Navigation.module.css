@@ -1,0 +1,43 @@
+.navigation {
+  margin: 20px 20px;
+  height: 50px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.search input {
+  border: none;
+  outline: none;
+}
+
+.search {
+  width: 200px;
+  display: flex;
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.logo {
+  position: absolute;
+  left: 10px;
+}
+.logo img {
+  width: 90px;
+  height: 30px;
+}
+.favorite img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.basket {
+  margin-right: 20px;
+}
+.basket img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
